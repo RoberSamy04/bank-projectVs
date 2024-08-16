@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
 Client c;
-c.sayHello();
+
 return 0;
 }
