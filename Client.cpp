@@ -6,6 +6,6 @@ class Client
   public:
     void sayHello()
     {
-        cout << "Hello";
+        
     }
 };
