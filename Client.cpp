@@ -7,6 +7,7 @@ class Client
     void sayHello()
     {
         cout << "Welcome To AARO Bank" << endl;
+        cout << "Welcome To AARO Bank" << endl;
         cout << "Hello" << endl;
     }
 };
