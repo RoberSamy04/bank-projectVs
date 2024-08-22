@@ -7,6 +7,6 @@ class Client
     void sayHello()
     {
         cout << "Hello";
-        cout<<"Hi omar";
+        cout << "hi";
     }
 };
