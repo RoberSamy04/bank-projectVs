@@ -8,5 +8,6 @@ int main()
 {
 Client c;
 c.sayHello();
+cout<<"ahmed";
 return 0;
 }
