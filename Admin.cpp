@@ -1,8 +1,14 @@
 #include <iostream>
 #include<string>
-#include "Employee.cpp"
+#include "Admin.h"
 using namespace std;
-class Admin : public Employee
-{
+Admin::Admin() : Employee() {}
 
-};
+Admin::Admin(string name, string password, int id, double salary): Employee(name, password, id, salary)
+{}
+
+void Admin::display() {
+    cout << "Admin ID: " << id << endl;
+    cout << "Name: " << name << endl;
+    cout << "Salary: " << salary << endl;
+}

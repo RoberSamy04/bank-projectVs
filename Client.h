@@ -14,6 +14,7 @@ public:
     void withdraw (double amount);
     void transferTo (double amount, Client& recipient);
     void checkBalance ();
+    void display();
 };
 
 #endif // CLIENT_H

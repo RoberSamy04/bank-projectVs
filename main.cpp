@@ -1,13 +1,17 @@
 #include <iostream>
-#include"Client.h"
-#include"Employee.cpp"
-#include "Admin.cpp"
+#include"Validation.h"
+#include "Client.h"
+#include"Employee.h"
+#include"Admin.h"
 #include<string>
 using namespace std;
 int main()
 {
-Client c;
-c.setBalance(1399);
-c.getBalance();
+Admin admin("ahmedOmar" , "ahmed1324@" , 1 , 7000);
+Employee employee("ahmedOmar" , "ahmed1324@" , 2 , 7000);
+Client client("ahmedOmar" , "ahmed1324@" , 3 , 7000);
+admin.display();
+employee.display();
+client.display();
 return 0;
 }
