@@ -30,7 +30,7 @@ Person::Person(string name, string password, int id) : name(name), password(pass
         this->password = password;
     }
     else
-    {cout <<"Your name must be more than 5 letters and less than 20 letters"<<endl;}
+    {cout <<"Invalid password. It must contain more than 5 characters and less than 20 characters."<<endl;}
  }
  void Person::setId(int id)
 {

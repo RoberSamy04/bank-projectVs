@@ -21,7 +21,7 @@ using namespace std;
     }
     else
     {
-      cout <<"the balance must be more than 1500 "<<endl;
+      cout <<"the balance must be at least 1500 "<<endl;
     }
   }
   //Getters

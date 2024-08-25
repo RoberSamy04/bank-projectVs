@@ -4,7 +4,7 @@
 #include <cctype>
 using namespace std;
 // Method to validate the name
-bool Validation::isValidName( string& name) {
+bool Validation::isValidName( const string& name) {
     if (name.length() < 5 || name.length() > 20) 
     {
        return false;
@@ -20,7 +20,7 @@ bool Validation::isValidName( string& name) {
 }
 
 // Method to validate the password
-bool Validation::isValidPassword( string& password) {
+bool Validation::isValidPassword(const string& password) {
     if (password.length() >= 8 && password.length() <= 20)
     {
         return true;
