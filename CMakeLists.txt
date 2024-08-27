@@ -6,14 +6,15 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(bank_projectVs
-    Admin.cpp
-    Admin.h
-    Client.cpp
-    Client.h
-    Employee.cpp
-    Employee.h
-    main.cpp
-    Person.cpp
-    Person.h
-    Validation.cpp
-    Validation.h)
+    Source/Admin.cpp
+    Source/Admin.h
+    Source/Client.cpp
+    Source/Client.h
+    Source/Employee.cpp
+    Source/Employee.h
+    Source/main.cpp
+    Source/Person.cpp
+    Source/Person.h
+    Source/Validation.cpp
+    Source/Validation.h
+        Source/main.cpp)

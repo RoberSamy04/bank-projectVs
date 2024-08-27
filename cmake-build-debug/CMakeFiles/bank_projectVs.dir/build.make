@@ -68,114 +68,114 @@ include CMakeFiles/bank_projectVs.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/bank_projectVs.dir/flags.make
 
-CMakeFiles/bank_projectVs.dir/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/Admin.cpp.obj: F:/bank\ projectVs/Admin.cpp
-CMakeFiles/bank_projectVs.dir/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bank_projectVs.dir/Admin.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Admin.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Admin.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Admin.cpp.obj -c "F:\bank projectVs\Admin.cpp"
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj: F:/bank\ projectVs/Source/Admin.cpp
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\Admin.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\Admin.cpp.obj -c "F:\bank projectVs\Source\Admin.cpp"
 
-CMakeFiles/bank_projectVs.dir/Admin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Admin.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Admin.cpp" > CMakeFiles\bank_projectVs.dir\Admin.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\Admin.cpp" > CMakeFiles\bank_projectVs.dir\Source\Admin.cpp.i
 
-CMakeFiles/bank_projectVs.dir/Admin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Admin.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Admin.cpp" -o CMakeFiles\bank_projectVs.dir\Admin.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\Admin.cpp" -o CMakeFiles\bank_projectVs.dir\Source\Admin.cpp.s
 
-CMakeFiles/bank_projectVs.dir/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/Client.cpp.obj: F:/bank\ projectVs/Client.cpp
-CMakeFiles/bank_projectVs.dir/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bank_projectVs.dir/Client.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Client.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Client.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Client.cpp.obj -c "F:\bank projectVs\Client.cpp"
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj: F:/bank\ projectVs/Source/Client.cpp
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\Client.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\Client.cpp.obj -c "F:\bank projectVs\Source\Client.cpp"
 
-CMakeFiles/bank_projectVs.dir/Client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Client.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Client.cpp" > CMakeFiles\bank_projectVs.dir\Client.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/Client.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\Client.cpp" > CMakeFiles\bank_projectVs.dir\Source\Client.cpp.i
 
-CMakeFiles/bank_projectVs.dir/Client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Client.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Client.cpp" -o CMakeFiles\bank_projectVs.dir\Client.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/Client.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/Client.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\Client.cpp" -o CMakeFiles\bank_projectVs.dir\Source\Client.cpp.s
 
-CMakeFiles/bank_projectVs.dir/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/Employee.cpp.obj: F:/bank\ projectVs/Employee.cpp
-CMakeFiles/bank_projectVs.dir/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bank_projectVs.dir/Employee.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Employee.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Employee.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Employee.cpp.obj -c "F:\bank projectVs\Employee.cpp"
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj: F:/bank\ projectVs/Source/Employee.cpp
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\Employee.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\Employee.cpp.obj -c "F:\bank projectVs\Source\Employee.cpp"
 
-CMakeFiles/bank_projectVs.dir/Employee.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Employee.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Employee.cpp" > CMakeFiles\bank_projectVs.dir\Employee.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\Employee.cpp" > CMakeFiles\bank_projectVs.dir\Source\Employee.cpp.i
 
-CMakeFiles/bank_projectVs.dir/Employee.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Employee.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Employee.cpp" -o CMakeFiles\bank_projectVs.dir\Employee.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\Employee.cpp" -o CMakeFiles\bank_projectVs.dir\Source\Employee.cpp.s
 
-CMakeFiles/bank_projectVs.dir/main.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/main.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/main.cpp.obj: F:/bank\ projectVs/main.cpp
-CMakeFiles/bank_projectVs.dir/main.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bank_projectVs.dir/main.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/main.cpp.obj -MF CMakeFiles\bank_projectVs.dir\main.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\main.cpp.obj -c "F:\bank projectVs\main.cpp"
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj: F:/bank\ projectVs/Source/main.cpp
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\main.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\main.cpp.obj -c "F:\bank projectVs\Source\main.cpp"
 
-CMakeFiles/bank_projectVs.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/main.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\main.cpp" > CMakeFiles\bank_projectVs.dir\main.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/main.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\main.cpp" > CMakeFiles\bank_projectVs.dir\Source\main.cpp.i
 
-CMakeFiles/bank_projectVs.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/main.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\main.cpp" -o CMakeFiles\bank_projectVs.dir\main.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/main.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\main.cpp" -o CMakeFiles\bank_projectVs.dir\Source\main.cpp.s
 
-CMakeFiles/bank_projectVs.dir/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/Person.cpp.obj: F:/bank\ projectVs/Person.cpp
-CMakeFiles/bank_projectVs.dir/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bank_projectVs.dir/Person.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Person.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Person.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Person.cpp.obj -c "F:\bank projectVs\Person.cpp"
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj: F:/bank\ projectVs/Source/Person.cpp
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\Person.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\Person.cpp.obj -c "F:\bank projectVs\Source\Person.cpp"
 
-CMakeFiles/bank_projectVs.dir/Person.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Person.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Person.cpp" > CMakeFiles\bank_projectVs.dir\Person.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/Person.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\Person.cpp" > CMakeFiles\bank_projectVs.dir\Source\Person.cpp.i
 
-CMakeFiles/bank_projectVs.dir/Person.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Person.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Person.cpp" -o CMakeFiles\bank_projectVs.dir\Person.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/Person.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\Person.cpp" -o CMakeFiles\bank_projectVs.dir\Source\Person.cpp.s
 
-CMakeFiles/bank_projectVs.dir/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
-CMakeFiles/bank_projectVs.dir/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
-CMakeFiles/bank_projectVs.dir/Validation.cpp.obj: F:/bank\ projectVs/Validation.cpp
-CMakeFiles/bank_projectVs.dir/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bank_projectVs.dir/Validation.cpp.obj"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Validation.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Validation.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Validation.cpp.obj -c "F:\bank projectVs\Validation.cpp"
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/flags.make
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/includes_CXX.rsp
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj: F:/bank\ projectVs/Source/Validation.cpp
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj: CMakeFiles/bank_projectVs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="F:\bank projectVs\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj -MF CMakeFiles\bank_projectVs.dir\Source\Validation.cpp.obj.d -o CMakeFiles\bank_projectVs.dir\Source\Validation.cpp.obj -c "F:\bank projectVs\Source\Validation.cpp"
 
-CMakeFiles/bank_projectVs.dir/Validation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Validation.cpp.i"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Validation.cpp" > CMakeFiles\bank_projectVs.dir\Validation.cpp.i
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.i"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "F:\bank projectVs\Source\Validation.cpp" > CMakeFiles\bank_projectVs.dir\Source\Validation.cpp.i
 
-CMakeFiles/bank_projectVs.dir/Validation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Validation.cpp.s"
-	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Validation.cpp" -o CMakeFiles\bank_projectVs.dir\Validation.cpp.s
+CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.s"
+	"F:\cpp applications\mingw64\bin\c++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "F:\bank projectVs\Source\Validation.cpp" -o CMakeFiles\bank_projectVs.dir\Source\Validation.cpp.s
 
 # Object files for target bank_projectVs
 bank_projectVs_OBJECTS = \
-"CMakeFiles/bank_projectVs.dir/Admin.cpp.obj" \
-"CMakeFiles/bank_projectVs.dir/Client.cpp.obj" \
-"CMakeFiles/bank_projectVs.dir/Employee.cpp.obj" \
-"CMakeFiles/bank_projectVs.dir/main.cpp.obj" \
-"CMakeFiles/bank_projectVs.dir/Person.cpp.obj" \
-"CMakeFiles/bank_projectVs.dir/Validation.cpp.obj"
+"CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj" \
+"CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj" \
+"CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj" \
+"CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" \
+"CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj" \
+"CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj"
 
 # External object files for target bank_projectVs
 bank_projectVs_EXTERNAL_OBJECTS =
 
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Admin.cpp.obj
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Client.cpp.obj
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Employee.cpp.obj
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/main.cpp.obj
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Person.cpp.obj
-bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Validation.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj
+bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj
 bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/build.make
 bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/linkLibs.rsp
 bank_projectVs.exe: CMakeFiles/bank_projectVs.dir/objects1.rsp

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "F:/bank projectVs/Admin.cpp" "CMakeFiles/bank_projectVs.dir/Admin.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Admin.cpp.obj.d"
-  "F:/bank projectVs/Client.cpp" "CMakeFiles/bank_projectVs.dir/Client.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Client.cpp.obj.d"
-  "F:/bank projectVs/Employee.cpp" "CMakeFiles/bank_projectVs.dir/Employee.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Employee.cpp.obj.d"
-  "F:/bank projectVs/Person.cpp" "CMakeFiles/bank_projectVs.dir/Person.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Person.cpp.obj.d"
-  "F:/bank projectVs/Validation.cpp" "CMakeFiles/bank_projectVs.dir/Validation.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Validation.cpp.obj.d"
-  "F:/bank projectVs/main.cpp" "CMakeFiles/bank_projectVs.dir/main.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/main.cpp.obj.d"
+  "F:/bank projectVs/Source/Admin.cpp" "CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj.d"
+  "F:/bank projectVs/Source/Client.cpp" "CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj.d"
+  "F:/bank projectVs/Source/Employee.cpp" "CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj.d"
+  "F:/bank projectVs/Source/Person.cpp" "CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj.d"
+  "F:/bank projectVs/Source/Validation.cpp" "CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj.d"
+  "F:/bank projectVs/Source/main.cpp" "CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" "gcc" "CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

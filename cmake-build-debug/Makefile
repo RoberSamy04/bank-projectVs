@@ -128,149 +128,149 @@ bank_projectVs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/build
 .PHONY : bank_projectVs/fast
 
-Admin.obj: Admin.cpp.obj
-.PHONY : Admin.obj
+Source/Admin.obj: Source/Admin.cpp.obj
+.PHONY : Source/Admin.obj
 
 # target to build an object file
-Admin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Admin.cpp.obj
-.PHONY : Admin.cpp.obj
+Source/Admin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj
+.PHONY : Source/Admin.cpp.obj
 
-Admin.i: Admin.cpp.i
-.PHONY : Admin.i
+Source/Admin.i: Source/Admin.cpp.i
+.PHONY : Source/Admin.i
 
 # target to preprocess a source file
-Admin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Admin.cpp.i
-.PHONY : Admin.cpp.i
+Source/Admin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.i
+.PHONY : Source/Admin.cpp.i
 
-Admin.s: Admin.cpp.s
-.PHONY : Admin.s
+Source/Admin.s: Source/Admin.cpp.s
+.PHONY : Source/Admin.s
 
 # target to generate assembly for a file
-Admin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Admin.cpp.s
-.PHONY : Admin.cpp.s
+Source/Admin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.s
+.PHONY : Source/Admin.cpp.s
 
-Client.obj: Client.cpp.obj
-.PHONY : Client.obj
+Source/Client.obj: Source/Client.cpp.obj
+.PHONY : Source/Client.obj
 
 # target to build an object file
-Client.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Client.cpp.obj
-.PHONY : Client.cpp.obj
+Source/Client.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj
+.PHONY : Source/Client.cpp.obj
 
-Client.i: Client.cpp.i
-.PHONY : Client.i
+Source/Client.i: Source/Client.cpp.i
+.PHONY : Source/Client.i
 
 # target to preprocess a source file
-Client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Client.cpp.i
-.PHONY : Client.cpp.i
+Source/Client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Client.cpp.i
+.PHONY : Source/Client.cpp.i
 
-Client.s: Client.cpp.s
-.PHONY : Client.s
+Source/Client.s: Source/Client.cpp.s
+.PHONY : Source/Client.s
 
 # target to generate assembly for a file
-Client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Client.cpp.s
-.PHONY : Client.cpp.s
+Source/Client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Client.cpp.s
+.PHONY : Source/Client.cpp.s
 
-Employee.obj: Employee.cpp.obj
-.PHONY : Employee.obj
+Source/Employee.obj: Source/Employee.cpp.obj
+.PHONY : Source/Employee.obj
 
 # target to build an object file
-Employee.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Employee.cpp.obj
-.PHONY : Employee.cpp.obj
+Source/Employee.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj
+.PHONY : Source/Employee.cpp.obj
 
-Employee.i: Employee.cpp.i
-.PHONY : Employee.i
+Source/Employee.i: Source/Employee.cpp.i
+.PHONY : Source/Employee.i
 
 # target to preprocess a source file
-Employee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Employee.cpp.i
-.PHONY : Employee.cpp.i
+Source/Employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.i
+.PHONY : Source/Employee.cpp.i
 
-Employee.s: Employee.cpp.s
-.PHONY : Employee.s
+Source/Employee.s: Source/Employee.cpp.s
+.PHONY : Source/Employee.s
 
 # target to generate assembly for a file
-Employee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Employee.cpp.s
-.PHONY : Employee.cpp.s
+Source/Employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.s
+.PHONY : Source/Employee.cpp.s
 
-Person.obj: Person.cpp.obj
-.PHONY : Person.obj
+Source/Person.obj: Source/Person.cpp.obj
+.PHONY : Source/Person.obj
 
 # target to build an object file
-Person.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Person.cpp.obj
-.PHONY : Person.cpp.obj
+Source/Person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj
+.PHONY : Source/Person.cpp.obj
 
-Person.i: Person.cpp.i
-.PHONY : Person.i
+Source/Person.i: Source/Person.cpp.i
+.PHONY : Source/Person.i
 
 # target to preprocess a source file
-Person.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Person.cpp.i
-.PHONY : Person.cpp.i
+Source/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Person.cpp.i
+.PHONY : Source/Person.cpp.i
 
-Person.s: Person.cpp.s
-.PHONY : Person.s
+Source/Person.s: Source/Person.cpp.s
+.PHONY : Source/Person.s
 
 # target to generate assembly for a file
-Person.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Person.cpp.s
-.PHONY : Person.cpp.s
+Source/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Person.cpp.s
+.PHONY : Source/Person.cpp.s
 
-Validation.obj: Validation.cpp.obj
-.PHONY : Validation.obj
+Source/Validation.obj: Source/Validation.cpp.obj
+.PHONY : Source/Validation.obj
 
 # target to build an object file
-Validation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Validation.cpp.obj
-.PHONY : Validation.cpp.obj
+Source/Validation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj
+.PHONY : Source/Validation.cpp.obj
 
-Validation.i: Validation.cpp.i
-.PHONY : Validation.i
+Source/Validation.i: Source/Validation.cpp.i
+.PHONY : Source/Validation.i
 
 # target to preprocess a source file
-Validation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Validation.cpp.i
-.PHONY : Validation.cpp.i
+Source/Validation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.i
+.PHONY : Source/Validation.cpp.i
 
-Validation.s: Validation.cpp.s
-.PHONY : Validation.s
+Source/Validation.s: Source/Validation.cpp.s
+.PHONY : Source/Validation.s
 
 # target to generate assembly for a file
-Validation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Validation.cpp.s
-.PHONY : Validation.cpp.s
+Source/Validation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.s
+.PHONY : Source/Validation.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+Source/main.obj: Source/main.cpp.obj
+.PHONY : Source/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Source/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj
+.PHONY : Source/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+Source/main.i: Source/main.cpp.i
+.PHONY : Source/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/main.cpp.i
-.PHONY : main.cpp.i
+Source/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/main.cpp.i
+.PHONY : Source/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+Source/main.s: Source/main.cpp.s
+.PHONY : Source/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/main.cpp.s
-.PHONY : main.cpp.s
+Source/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bank_projectVs.dir\build.make CMakeFiles/bank_projectVs.dir/Source/main.cpp.s
+.PHONY : Source/main.cpp.s
 
 # Help Target
 help:
@@ -281,24 +281,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... bank_projectVs
-	@echo ... Admin.obj
-	@echo ... Admin.i
-	@echo ... Admin.s
-	@echo ... Client.obj
-	@echo ... Client.i
-	@echo ... Client.s
-	@echo ... Employee.obj
-	@echo ... Employee.i
-	@echo ... Employee.s
-	@echo ... Person.obj
-	@echo ... Person.i
-	@echo ... Person.s
-	@echo ... Validation.obj
-	@echo ... Validation.i
-	@echo ... Validation.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Source/Admin.obj
+	@echo ... Source/Admin.i
+	@echo ... Source/Admin.s
+	@echo ... Source/Client.obj
+	@echo ... Source/Client.i
+	@echo ... Source/Client.s
+	@echo ... Source/Employee.obj
+	@echo ... Source/Employee.i
+	@echo ... Source/Employee.s
+	@echo ... Source/Person.obj
+	@echo ... Source/Person.i
+	@echo ... Source/Person.s
+	@echo ... Source/Validation.obj
+	@echo ... Source/Validation.i
+	@echo ... Source/Validation.s
+	@echo ... Source/main.obj
+	@echo ... Source/main.i
+	@echo ... Source/main.s
 .PHONY : help
 
 
