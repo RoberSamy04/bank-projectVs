@@ -14,14 +14,18 @@ Employee::Employee(string name, string password, int id, double salary) : Person
 //Setters
 void Employee::setSalary(double salary)
 {
-    if (Validation::isValidSalary(salary))
-    {
-        this->salary = salary;
+    while (true) {
+        if (Validation::isValidSalary(salary))
+        {
+            this->salary = salary;
+            break;
+        }
+        else
+        {
+            cout << "your salary must be at least 5000 \n Please try again" << endl;
+            cin >>salary;
+        }
     }
-    else
-    {
-        cout << "your salary must be at least 5000" << endl;
-    } 
 }
 
 //Getters

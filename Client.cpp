@@ -15,13 +15,17 @@ using namespace std;
   //Setters
   void Client::setBalance( double balance)
   {
-    if (Validation::isValidBalance(balance))
-    {
-      this->balance = balance;
-    }
-    else
-    {
-      cout <<"the balance must be at least 1500 "<<endl;
+    while (true) {
+      if (Validation::isValidBalance(balance))
+      {
+        this->balance = balance;
+        break;
+      }
+      else
+      {
+        cout <<"the balance must be at least 1500  \n Please try again"<<endl;
+        cin >>balance;
+      }
     }
   }
   //Getters
@@ -30,37 +34,49 @@ using namespace std;
  //Methods
  void Client::deposit(double amount)
  {
-  if (amount > 0)
-  {
-    balance +=amount;
-  }
-  else
-  {
-    cout << "amount must positive" << endl;
-  }
+    while (true) {
+      if (amount > 0)
+      {
+        balance +=amount;
+        break;
+      }
+      else
+      {
+        cout << "amount must be positive \n Please try again" << endl;
+        cin >> amount;
+      }
+    }
  }
 void Client::withdraw (double amount)
 {
-  if (amount > 0 && amount <= balance)
-  {
-    balance -=amount;
-  }
-  else
-  {
-    cout <<"amount must positive and the amount must be less than the balance" << endl;
-  }
+    while (true) {
+      if (amount > 0 && amount <= balance)
+      {
+        balance -=amount;
+        break;
+      }
+      else
+      {
+        cout <<"amount must be positive and the amount must be less than the balance \n Please try again" << endl;
+        cin >> amount;
+      }
+    }
 }
 void Client::transferTo(double amount, Client& recipient)
 {
-  if (amount > 0 && amount <= balance)
-  {
-     balance -= amount;
-     recipient.balance+= amount;
-  }
-  else
-  {
-    cout << "Invalid transfer amount!" << endl;
-  }
+    while (true) {
+      if (amount > 0 && amount <= balance)
+      {
+        balance -= amount;
+        recipient.balance+= amount;
+        break;
+      }
+      else
+      {
+        cout << "Invalid transfer amount! \n Please try again" << endl;
+        cin >> amount;
+      }
+    }
 }
 void Client::checkBalance()
 {

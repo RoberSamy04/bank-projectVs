@@ -15,22 +15,31 @@ Person::Person(string name, string password, int id) : name(name), password(pass
 //Setters
  void Person::setName(string name)
  {
-    if (Validation::isValidName(name)) 
-    {
-        this->name = name;
-    } else 
-    {
-        cout << "Invalid name. It must contain only alphabetic characters and be between 5 and 20 characters long." << endl;
+    while(true) {
+        if (Validation::isValidName(name))
+        {
+            this->name = name;
+            break;
+        } else
+        {
+            cout << "Invalid name. It must contain only alphabetic characters and be between 5 and 20 characters long.\n Please try again" << endl;
+            cin >> name;
+        }
     }
  }
  void Person::setPassword(string password)
  {
-    if (Validation::isValidPassword(password)) 
-    {
-        this->password = password;
+    while (true) {
+        if (Validation::isValidPassword(password))
+        {
+            this->password = password;
+            break;
+        }
+        else {
+            cout <<"Invalid password. It must contain more than 5 characters and less than 20 characters.\n Please try again"<<endl;
+            cin >> password;
+        }
     }
-    else
-    {cout <<"Invalid password. It must contain more than 5 characters and less than 20 characters."<<endl;}
  }
  void Person::setId(int id)
 {
