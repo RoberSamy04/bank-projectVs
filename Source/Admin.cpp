@@ -8,7 +8,6 @@ Admin::Admin(string name, string password, int id, double salary): Employee(name
 {}
 
 void Admin::display() {
-    cout << "Admin ID: " << id << endl;
-    cout << "Name: " << name << endl;
+    Person::display();
     cout << "Salary: " << salary << endl;
 }

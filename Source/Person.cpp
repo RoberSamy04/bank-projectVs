@@ -58,4 +58,9 @@ string Person::getPassword() {
 int Person::getId() {
     return id;
 }
- 
+ void Person::display() {
+    cout << "Name : " << name << endl;
+    cout << "id : " << id << endl;
+    cout << "password : " << password << endl;
+ }
+

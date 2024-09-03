@@ -84,8 +84,6 @@ void Client::checkBalance()
 }
 void Client::display()
 {
-  cout << "Name : " << name << endl;
-  cout << "id : " << id << endl;
-   cout << "password : " << password << endl;
+    Person::display();
     cout << "Balance : " << balance << endl;
 }

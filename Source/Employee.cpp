@@ -37,8 +37,6 @@ double Employee::getSalary()
 //Methods
 void Employee::display()
 {
-  cout << "Name : " << name << endl;
-  cout << "id : " << id << endl;
-   cout << "password : " << password << endl;
+    Person::display();
     cout << "Salary : " << salary << endl;
 }

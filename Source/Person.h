@@ -20,6 +20,6 @@ public:
     string getName();
     string getPassword();
     int getId();
-    virtual void display() = 0 ;
+     void display();
 };
 #endif // PERSON_H
