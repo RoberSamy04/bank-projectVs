@@ -11,7 +11,7 @@ protected:
 public:
 
     Person();
-    Person(string name, string password, int id);
+    Person(int id, string name, string password);
 
     void setName(string name);
     void setPassword(string password);
@@ -20,6 +20,6 @@ public:
     string getName();
     string getPassword();
     int getId();
-    virtual void display() = 0 ;
+    void display();
 };
 #endif // PERSON_H

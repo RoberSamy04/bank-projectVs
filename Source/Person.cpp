@@ -8,7 +8,7 @@ Person::Person()
 {
     id = 0; 
 }
-Person::Person(string name, string password, int id) : name(name), password(password), id(id) 
+Person::Person(int id, string name, string password) : name(name), password(password), id(id)
 {
 }
 
@@ -58,4 +58,9 @@ string Person::getPassword() {
 int Person::getId() {
     return id;
 }
- 
+ void Person::display() {
+    cout << "Name : " << name << endl;
+    cout << "id : " << id << endl;
+    cout << "password : " << password << endl;
+ }
+

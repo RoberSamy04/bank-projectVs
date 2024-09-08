@@ -17,4 +17,9 @@ add_executable(bank_projectVs
     Source/Person.h
     Source/Validation.cpp
     Source/Validation.h
-        Source/main.cpp)
+        Source/main.cpp
+        Source/DataSourceInterface.h
+        Source/FileManager.h
+        Source/FileManager.cpp
+        Source/Parser.h
+        Source/Parser.cpp)

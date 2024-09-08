@@ -7,7 +7,7 @@ private:
     double balance;
 public:
     Client();
-    Client(string name, string password, int id, double balance);
+    Client(int id, string name, string password, double balance);
     void setBalance(double balance);
     double getBalance();
     void deposit (double amount);

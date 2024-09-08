@@ -9,7 +9,7 @@ using namespace std;
   {
     balance = 0;
   }
-  Client::Client(string name , string password , int id , double balance) : Person(name , password , id) , balance(balance)
+  Client::Client(int id , string name , string password , double balance) : Person(id , name , password) , balance(balance)
   {
   }
   //Setters

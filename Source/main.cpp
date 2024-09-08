@@ -1,27 +1,39 @@
 #include <iostream>
-#include"Validation.h"
 #include "Client.h"
 #include"Employee.h"
+#include"FileManager.h"
 #include"Admin.h"
 #include<string>
 using namespace std;
 int main()
 {
- Admin admin;
- Employee employee;
- Client client;
- Client client2;
-client.setName("rRR");
- client.setPassword("roRR");
- client.setBalance(200);
- client.deposit(-599);
- client.withdraw(-23);
- client.transferTo(-499, client2);
-cout << client2.getBalance() << endl;
- cout << client.getName() << endl;
- cout << client.getPassword()<<endl;
- cout << client.getBalance() << endl;
- employee.setSalary(300) ;
- cout <<employee.getSalary() << endl;
+ Admin admin(10,"robersamy" , "rober1234" , 6000);
+ Employee employee(12 , "remonsamy" , "remon1%@%#" , 5000);
+ Employee employee2(13 , "emadyoussef" , "emad745@5", 5600);
+ Client client(7 , "redayoussef" , "reda6$423" , 2000);
+ Client client2(5 , "ahmed" , "ahmed6435" ,3400);
+
+ employee.addClient(client);
+ employee.addClient(client2);
+ employee.listClient();
+ cout<<"\n =====================\n";
+ employee.editClient(7 , "mohamedyoussef" , "momamed5040" , 2000);
+ employee.listClient();
+ cout<<"\n =====================\n";
+
+ admin.addEmployee(employee);
+ admin.addEmployee(employee2);
+ admin.listEmployee();
+ cout<<"\n =====================\n";
+ admin.editEmployee(12 ,"antonsamy" , "anton1231" , 5000);
+ admin.listEmployee();
+ cout<<"\n =====================\n";
+
+ // FileManager f;
+ // f.addClient(client);
+ // f.addClient(client2);
+ // f.addEmployee(employee);
+ // f.addEmployee(employee2);
+ // f.addAdmin(admin);
 return 0;
 }
