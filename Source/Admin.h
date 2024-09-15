@@ -4,8 +4,8 @@
 #include <vector>
 class Admin : public Employee
 {
-private:
-    vector<Employee> employeelist;
+
+
 public:
     Admin();
     Admin(int id, string name, string password, double salary);
@@ -16,7 +16,8 @@ public:
     void display();
 };
 
-
+static vector<Admin> adminslist;
+static  vector<Admin>::iterator ait;
 
 
 #endif // ADMIN_H

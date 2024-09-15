@@ -7,7 +7,7 @@ class Employee : public Person
 {
 protected:
 double salary;
-vector<Client> clientlist;
+
 public:
 Employee();
 Employee(int id, string name, string password, double salary);
@@ -19,5 +19,6 @@ void listClient();
 void editClient(int id, string name, string password, double balance);
 void display();
 };
-
+static  vector<Employee> employeelist;;
+static  vector<Employee> ::iterator eit;
 #endif // EMPLOYEE_H

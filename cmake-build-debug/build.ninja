@@ -105,6 +105,13 @@ build CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj: CXX_COMPILER__bank_pr
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
   OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
 
+build CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/FilesHelper.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\FilesHelper.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/."
+  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bank_projectVs
@@ -113,7 +120,7 @@ build CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj: CXX_COMPILER__bank_pr
 #############################################
 # Link the executable bank_projectVs.exe
 
-build bank_projectVs.exe: CXX_EXECUTABLE_LINKER__bank_projectVs_Debug CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj
+build bank_projectVs.exe: CXX_EXECUTABLE_LINKER__bank_projectVs_Debug CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir

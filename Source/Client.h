@@ -1,6 +1,7 @@
 #ifndef CLIENT_H
 #define CLIENT_H
 #include "Person.h"
+#include <vector>
 
 class Client : public Person {
 private:
@@ -16,5 +17,6 @@ public:
     void checkBalance ();
     void display();
 };
-
+static  vector<Client> clientlist;
+static  vector<Client> ::iterator cit;
 #endif // CLIENT_H

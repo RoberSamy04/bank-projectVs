@@ -8,8 +8,9 @@
 #ifndef PARSER_H
 #define PARSER_H
 class Parser {
-public:
+private:
     static vector<string> split(string line);
+public:
     static Client parseToClient(string line);
     static Employee parseToEmployee(string line);
     static Admin parseToAdmin(string line);

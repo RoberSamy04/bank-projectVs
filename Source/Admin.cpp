@@ -33,14 +33,12 @@ void Admin::editEmployee(int id, string name, string password, double salary) {
 }
 
 void Admin::listEmployee() {
-    for (int i = 0 ; i<employeelist.size(); i++) {
-        cout << " ID: " << employeelist[i].getId() << " Name: " << employeelist[i].getName() << " Password : " <<employeelist[i].getPassword()
-        <<" Salary : "<<employeelist[i].getSalary() << endl;
+    for (eit =employeelist.begin() ; eit !=employeelist.end(); eit++) {
+        eit->display();
+        cout<<"-----------------------------\n";
     }
 }
 
 void Admin::display() {
-    cout << "Admin ID: " << id << endl;
-    cout << "Name: " << name << endl;
-    cout << "Salary: " << salary << endl;
+   Employee::display();
 }

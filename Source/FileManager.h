@@ -12,9 +12,9 @@
 using namespace std;
 class FileManager : public DataSourceInterface {
 public:
-     void addClient(Client& client) override;
-     void addEmployee(Employee& employee) override;
-     void addAdmin(Admin& admin) override;
+     void addClient(Client client) override;
+     void addEmployee(Employee employee) override;
+     void addAdmin(Admin admin) override;
      vector<Client> getAllClients()override ;
      vector<Employee> getAllEmployees() override;
      vector<Admin> getAllAdmins()override ;

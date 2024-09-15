@@ -22,4 +22,6 @@ add_executable(bank_projectVs
         Source/FileManager.h
         Source/FileManager.cpp
         Source/Parser.h
-        Source/Parser.cpp)
+        Source/Parser.cpp
+        Source/FilesHelper.h
+        Source/FilesHelper.cpp)

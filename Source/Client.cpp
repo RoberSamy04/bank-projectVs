@@ -5,6 +5,7 @@
 #include "Validation.h"
 using namespace std;
 //Cons
+
   Client::Client() : Person()
   {
     balance = 0;
@@ -84,8 +85,6 @@ void Client::checkBalance()
 }
 void Client::display()
 {
-  cout << "Name : " << name << endl;
-  cout << "id : " << id << endl;
-   cout << "password : " << password << endl;
+ Person::display();
     cout << "Balance : " << balance << endl;
 }

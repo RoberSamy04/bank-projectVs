@@ -62,8 +62,9 @@ void Employee::editClient(int id, string name, string password, double balance) 
 }
 
 void Employee::listClient() {
-    for (int i = 0 ; i<clientlist.size(); i++) {
-        cout << " ID: " << clientlist[i].getId() << " Name: " << clientlist[i].getName() << " Password : " <<clientlist[i].getPassword() <<" Balance : "<<clientlist[i].getBalance() << endl;
+    for (cit = clientlist.begin(); cit!=clientlist.end(); cit++) {
+       cit->display();
+        cout<<"-----------------------------\n";
     }
 }
 

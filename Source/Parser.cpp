@@ -9,7 +9,7 @@
 #include"Admin.h"
 vector<string> Parser::split(string line) {
     vector<string> result; // creat an empty vector to store the data members
-    stringstream s(line); //creat a stringstream  to handle the input string
+    stringstream s(line); //creat a string_stream  to handle the input string
     string members;   //creat a string variable  that will hold each split part
     while (getline(s , members,',')) {
         result.push_back(members);
@@ -20,7 +20,7 @@ vector<string> Parser::split(string line) {
 Client Parser::parseToClient(string line) {
     Client client;
     vector<string> data = split(line);
-    client.setId(stoi(data[0])); //stio method Convert string to int
+    client.setId(stoi(data[0])); //stoi method Convert string to int
     client.setName(data[1]);
     client.setPassword(data[2]);
     client.setBalance(stod(data[3])); //stod method Convert string to double
