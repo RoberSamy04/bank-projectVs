@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1726512741 source:a:\adsa\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+
