@@ -1,6 +1,7 @@
 #include <iostream>
 #include<string>
 #include "Employee.h"
+#include"Client.h"
 #include"Validation.h"
 using namespace std;
 //Cons
@@ -36,14 +37,13 @@ double Employee::getSalary()
 
 //Methods
 void Employee::addClient(Client& client) {
-    clientlist.push_back(client);
+   Client:: clientlist.push_back(client);
 }
 
 Client* Employee::searchClient(int id) {
-
-    for (int i = 0 ; i<clientlist.size(); i++) {
-        if (clientlist[i].getId() == id) {
-            return &clientlist[i];
+    for (int i = 0 ; i<Client::clientlist.size(); i++) {
+        if (Client::clientlist[i].getId() == id) {
+            return &Client::clientlist[i];
         }
     }
     return nullptr;
@@ -62,8 +62,8 @@ void Employee::editClient(int id, string name, string password, double balance) 
 }
 
 void Employee::listClient() {
-    for (cit = clientlist.begin(); cit!=clientlist.end(); cit++) {
-       cit->display();
+    for (Client::cit = Client::clientlist.begin(); Client::cit!=Client::clientlist.end(); ++Client::cit) {
+       Client::cit->display();
         cout<<"-----------------------------\n";
     }
 }
@@ -74,3 +74,5 @@ void Employee::display()
     Person::display();
     cout << "Salary : " << salary << endl;
 }
+ vector<Employee> Employee::employeelist;;
+ vector<Employee> ::iterator Employee:: eit;

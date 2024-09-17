@@ -16,7 +16,8 @@ public:
     void transferTo (double amount, Client& recipient);
     void checkBalance ();
     void display();
+    static  vector<Client> clientlist;
+    static  vector<Client> ::iterator cit;
 };
-static  vector<Client> clientlist;
-static  vector<Client> ::iterator cit;
+
 #endif // CLIENT_H

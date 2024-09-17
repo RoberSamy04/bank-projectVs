@@ -88,3 +88,5 @@ void Client::display()
  Person::display();
     cout << "Balance : " << balance << endl;
 }
+ vector<Client> Client::clientlist;
+ vector<Client>::iterator Client::cit;

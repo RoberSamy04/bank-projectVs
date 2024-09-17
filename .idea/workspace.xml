@@ -24,28 +24,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a88052-3fa0-4fd7-a730-72013b092b44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DataSourceInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/DataSourceInterface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FileManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FileManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FileManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FileManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FilesHelper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FilesHelper.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FilesHelper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/FilesHelper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ClientFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ClientFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EmployeeFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EmployeeFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bank_projectVs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bank_projectVs.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cIdFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cIdFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/eIdFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eIdFile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +108,7 @@
       <workItem from="1726399581284" duration="22354000" />
       <workItem from="1726487573722" duration="4914000" />
       <workItem from="1726492634997" duration="12566000" />
-      <workItem from="1726574149524" duration="3636000" />
+      <workItem from="1726574149524" duration="4921000" />
     </task>
     <servers />
   </component>

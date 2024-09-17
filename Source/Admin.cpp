@@ -38,7 +38,14 @@ void Admin::listEmployee() {
         cout<<"-----------------------------\n";
     }
 }
-
+void Admin::listAdmin() {
+    for (ait =adminslist.begin() ; ait !=adminslist.end(); ait++) {
+        ait->display();
+        cout<<"-----------------------------\n";
+    }
+}
 void Admin::display() {
    Employee::display();
 }
+ vector<Admin> Admin::adminslist;
+  vector<Admin>::iterator Admin:: ait;

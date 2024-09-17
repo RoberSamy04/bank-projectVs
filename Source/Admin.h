@@ -13,11 +13,13 @@ public:
     Employee* searchEmployee(int id);
     void editEmployee(int id, string name, string password, double salary);
     void listEmployee();
+    void listAdmin();
     void display();
+    static vector<Admin> adminslist;
+    static  vector<Admin>::iterator ait;
 };
 
-static vector<Admin> adminslist;
-static  vector<Admin>::iterator ait;
+;
 
 
 #endif // ADMIN_H

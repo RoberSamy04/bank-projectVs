@@ -15,10 +15,11 @@ void setSalary(double salary);
 double getSalary();
 void addClient(Client& client);
 Client* searchClient(int id);
-void listClient();
+ void listClient();
 void editClient(int id, string name, string password, double balance);
 void display();
+ static  vector<Employee> employeelist;;
+ static  vector<Employee> ::iterator eit;
 };
-static  vector<Employee> employeelist;;
-static  vector<Employee> ::iterator eit;
+
 #endif // EMPLOYEE_H

@@ -104,13 +104,11 @@ void FilesHelper::getClients() {
     if (ClientFile.is_open()) {
         while (getline(ClientFile , line)) {
             Client client = Parser::parseToClient(line);
-            clientlist.push_back(client);
+            Client::clientlist.push_back(client);
+
         }
         ClientFile.close();
-        for (cit = clientlist.begin(); cit!=clientlist.end(); ++cit) {
-            cit->display();
-            cout << "------------------------------\n";
-        }
+
     }
     else
         cout<<"there is an error in the getClients FileManager " << endl;
@@ -122,13 +120,10 @@ void FilesHelper::getEmployees() {
     if (EmployeeFile.is_open()) {
         while (getline(EmployeeFile,line)) {
             Employee employee = Parser::parseToEmployee(line);
-            employeelist.push_back(employee);
+            Employee::employeelist.push_back(employee);
         }
         EmployeeFile.close();
-        for (eit = employeelist.begin(); eit!=employeelist.end(); ++eit) {
-            eit->display();
-            cout << "------------------------------\n";
-        }
+
     }
     else
         cout<<"there is an error in the getEmployees FileManager " << endl;
@@ -141,13 +136,10 @@ void FilesHelper::getAdmins() {
     if (AdminFile.is_open()) {
         while (getline(AdminFile,line)) {
             Admin admin = Parser::parseToAdmin(line);
-            adminslist.push_back(admin);
+            Admin::adminslist.push_back(admin);
         }
         AdminFile.close();
-        for (ait = adminslist.begin(); ait!=adminslist.end(); ++ait) {
-            ait->display();
-            cout << "------------------------------\n";
-        }
+
     }
     else
         cout<<"there is an error in the getAdmins FileManager " << endl;
