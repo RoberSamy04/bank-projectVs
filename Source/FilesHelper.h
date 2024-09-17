@@ -19,5 +19,6 @@ public:
     static void getEmployees();
     static void getAdmins();
     static void clearFile(string fileName, string lastIdFile);
+
 };
 #endif //FILESHELPER_H

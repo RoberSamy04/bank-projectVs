@@ -15,11 +15,12 @@ public:
      void addClient(Client client) override;
      void addEmployee(Employee employee) override;
      void addAdmin(Admin admin) override;
-     vector<Client> getAllClients()override ;
-     vector<Employee> getAllEmployees() override;
-     vector<Admin> getAllAdmins()override ;
-     void removeAllClients() override;
+     void getAllClients()override ;
+     void getAllEmployees() override;
+    void getAllAdmins() override;
+     void removeAllClients()override ;
      void removeAllEmployees() override;
-     void removeAllAdmins() override;
+      void removeAllAdmins()override ;
+
 };
 #endif //FILEMANAGER_H

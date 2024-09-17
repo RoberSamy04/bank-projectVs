@@ -4,6 +4,7 @@
 #include "Parser.h"
 #include <string>
 #include<sstream>
+#include <iostream>
 #include"Client.h"
 #include"Employee.h"
 #include"Admin.h"
@@ -18,23 +19,23 @@ vector<string> Parser::split(string line) {
 }
 
 Client Parser::parseToClient(string line) {
-    Client client;
+    Client c;
     vector<string> data = split(line);
-    client.setId(stoi(data[0])); //stoi method Convert string to int
-    client.setName(data[1]);
-    client.setPassword(data[2]);
-    client.setBalance(stod(data[3])); //stod method Convert string to double
-    return client;
+    c.setId(stoi(data[0])); //stoi method Convert string to int
+    c.setName(data[1]);
+    c.setPassword(data[2]);
+    c.setBalance(stod(data[3])); //stod method Convert string to double
+    return c;
 }
 
 Employee Parser::parseToEmployee(string line) {
-    Employee employee;
+    Employee e;
     vector<string> data = split(line);
-    employee.setId(stoi(data[0]));
-    employee.setName(data[1]);
-    employee.setPassword(data[2]);
-    employee.setSalary(stod(data[3]));
-    return employee;
+    e.setId(stoi(data[0]));
+    e.setName(data[1]);
+    e.setPassword(data[2]);
+    e.setSalary(stod(data[3]));
+    return e;
 }
 
 Admin Parser::parseToAdmin(string line) {

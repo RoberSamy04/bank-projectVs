@@ -5,18 +5,19 @@
 #include<fstream>
 #include<iostream>
 #include <string>
+#include"Admin.h"
 #include "Parser.h"
 #include "Client.h"
 #include "Employee.h"
-void FilesHelper::saveLast(string fileName, int id) {
+void FilesHelper::saveLast(string lastIdFile, int id) {
     fstream filetxt;
-    if (fileName == "cIdFile.txt")
+    if (lastIdFile == "cIdFile.txt")
         filetxt.open("cIdFile.txt" , ios::out );
 
-    else if (fileName == "eIdFile.txt")
+    else if (lastIdFile == "eIdFile.txt")
         filetxt.open("eIdFile.txt" , ios::out);
 
-    else if (fileName == "aIdFile.txt")
+    else if (lastIdFile == "aIdFile.txt")
         filetxt.open("aIdFile.txt" , ios::out);
 
     else
@@ -31,16 +32,16 @@ void FilesHelper::saveLast(string fileName, int id) {
 }
 
 
-int FilesHelper::getLast(string fileName){
+int FilesHelper::getLast(string lastIdFile){
     fstream filetxt;
     int id;
-    if (fileName == "cIdFile.txt")
+    if (lastIdFile == "cIdFile.txt")
          filetxt.open("cIdFile.txt" );
 
-    else if (fileName == "eIdFile.txt")
+    else if (lastIdFile == "eIdFile.txt")
          filetxt.open("eIdFile.txt");
 
-    else if (fileName == "aIdFile.txt")
+    else if (lastIdFile == "aIdFile.txt")
          filetxt.open("aIdFile.txt");
 
     else
@@ -102,11 +103,14 @@ void FilesHelper::getClients() {
     fstream ClientFile("ClientFile.txt");
     if (ClientFile.is_open()) {
         while (getline(ClientFile , line)) {
-
             Client client = Parser::parseToClient(line);
             clientlist.push_back(client);
         }
         ClientFile.close();
+        for (cit = clientlist.begin(); cit!=clientlist.end(); ++cit) {
+            cit->display();
+            cout << "------------------------------\n";
+        }
     }
     else
         cout<<"there is an error in the getClients FileManager " << endl;
@@ -121,6 +125,10 @@ void FilesHelper::getEmployees() {
             employeelist.push_back(employee);
         }
         EmployeeFile.close();
+        for (eit = employeelist.begin(); eit!=employeelist.end(); ++eit) {
+            eit->display();
+            cout << "------------------------------\n";
+        }
     }
     else
         cout<<"there is an error in the getEmployees FileManager " << endl;
@@ -133,9 +141,13 @@ void FilesHelper::getAdmins() {
     if (AdminFile.is_open()) {
         while (getline(AdminFile,line)) {
             Admin admin = Parser::parseToAdmin(line);
-            employeelist.push_back(admin);
+            adminslist.push_back(admin);
         }
         AdminFile.close();
+        for (ait = adminslist.begin(); ait!=adminslist.end(); ++ait) {
+            ait->display();
+            cout << "------------------------------\n";
+        }
     }
     else
         cout<<"there is an error in the getAdmins FileManager " << endl;
@@ -155,6 +167,5 @@ void FilesHelper::clearFile(string fileName, string lastIdFile) {
     }
     else
         cout<<"there is an error in the clearFile FileManager " << endl;
-
-
 }
+

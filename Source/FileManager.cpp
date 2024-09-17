@@ -1,17 +1,17 @@
-//
-// Created by rober on 9/6/2024.
-//
+// //
+// // Created by rober on 9/6/2024.
+// //
 #include "FileManager.h"
 #include "Client.h"
+#include "Admin.h"
 #include "FilesHelper.h"
 #include "Employee.h"
-#include "Admin.h"
 #include <vector>
 #include <string>
 using namespace  std;
 
 //AddClients to the txt file
-void FileManager::addClient(Client client) {
+void FileManager::addClient(Client client)  {
     FilesHelper::saveClient(client);
 }
 
@@ -26,21 +26,21 @@ void FileManager::addAdmin(Admin admin) {
 }
 
 //store all the Clients in vector
-vector<Client> FileManager::getAllClients() {
+void FileManager::getAllClients() {
     FilesHelper::getClients();
-    return clientlist;
+
 }
 
 //store all the Employees in vector
-vector<Employee> FileManager::getAllEmployees() {
+void FileManager::getAllEmployees() {
     FilesHelper::getEmployees();
-    return  employeelist;
+
 }
 
 //store all the Admins in vector
-vector<Admin> FileManager::getAllAdmins() {
+void FileManager::getAllAdmins() {
     FilesHelper::getAdmins();
-    return  adminslist;
+
 }
 
 //remove all Clients in the txt file
