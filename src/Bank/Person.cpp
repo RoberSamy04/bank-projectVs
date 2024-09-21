@@ -1,66 +1,74 @@
-#include "Person.h"
-#include "Validation.h"
+#include "Bank/Person.h"
+#include "Bank/Validation.h"
 #include <iostream>
 #include <cctype>
 using namespace std;
-//Cons
+
+// Cons
 Person::Person()
 {
-    id = 0; 
+    id = 0;
 }
-Person::Person(string name, string password, int id) : name(name), password(password), id(id) 
+Person::Person(string name, string password, int id) : name(name), password(password), id(id)
 {
 }
 
-//Setters
- void Person::setName(string name)
- {
-    while(true) {
+// Setters
+void Person::setName(string name)
+{
+    while (true)
+    {
         if (Validation::isValidName(name))
         {
             this->name = name;
             break;
-        } else
+        }
+        else
         {
             cout << "Invalid name. It must contain only alphabetic characters and be between 5 and 20 characters long.\n Please try again" << endl;
             cin >> name;
         }
     }
- }
- void Person::setPassword(string password)
- {
-    while (true) {
+}
+void Person::setPassword(string password)
+{
+    while (true)
+    {
         if (Validation::isValidPassword(password))
         {
             this->password = password;
             break;
         }
-        else {
-            cout <<"Invalid password. It must contain more than 5 characters and less than 20 characters.\n Please try again"<<endl;
+        else
+        {
+            cout << "Invalid password. It must contain more than 5 characters and less than 20 characters.\n Please try again" << endl;
             cin >> password;
         }
     }
- }
- void Person::setId(int id)
+}
+void Person::setId(int id)
 {
     this->id = id;
 }
 
-//Getters
- string Person::getName() {
+// Getters
+string Person::getName()
+{
     return name;
 }
 
-string Person::getPassword() {
+string Person::getPassword()
+{
     return password;
 }
 
-int Person::getId() {
+int Person::getId()
+{
     return id;
 }
- void Person::display() {
+void Person::display()
+{
     cout << "Name : " << name << endl;
     cout << "id : " << id << endl;
     cout << "password : " << password << endl;
- }
-
+}
