@@ -2,14 +2,14 @@
 #define PERSON_H
 #include <string>
 using namespace std;
-class Person {
+class Person
+{
 
 protected:
     string name, password;
     int id;
 
 public:
-
     Person();
     Person(string name, string password, int id);
 
@@ -20,6 +20,6 @@ public:
     string getName();
     string getPassword();
     int getId();
-     void display();
+    void display();
 };
 #endif // PERSON_H

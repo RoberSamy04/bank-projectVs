@@ -1,13 +1,16 @@
-#include "Validation.h"
-#include<iostream>
+#include "Bank/Validation.h"
+#include <iostream>
 #include <string>
 #include <cctype>
+
 using namespace std;
+
 // Method to validate the name
-bool Validation::isValidName( const string& name) {
-    if (name.length() < 5 || name.length() > 20) 
+bool Validation::isValidName(const string &name)
+{
+    if (name.length() < 5 || name.length() > 20)
     {
-       return false;
+        return false;
     }
     for (int i = 0; i < name.size(); i++)
     {
@@ -20,7 +23,8 @@ bool Validation::isValidName( const string& name) {
 }
 
 // Method to validate the password
-bool Validation::isValidPassword(const string& password) {
+bool Validation::isValidPassword(const string &password)
+{
     if (password.length() >= 8 && password.length() <= 20)
     {
         return true;
@@ -29,7 +33,8 @@ bool Validation::isValidPassword(const string& password) {
 }
 
 // Method to validate the balance (for Client)
-bool Validation::isValidBalance(double balance) {
+bool Validation::isValidBalance(double balance)
+{
     if (balance >= 1500)
     {
         return true;
@@ -38,7 +43,8 @@ bool Validation::isValidBalance(double balance) {
 }
 
 // Method to validate the salary (for Employee and Admin)
-bool Validation::isValidSalary(double salary) {
+bool Validation::isValidSalary(double salary)
+{
     if (salary >= 5000)
     {
         return true;
