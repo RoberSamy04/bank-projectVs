@@ -1,6 +1,6 @@
 #include <iostream>
 #include<string>
-#include <cctype>
+
 #include "Client.h"
 #include "Validation.h"
 using namespace std;
@@ -39,6 +39,7 @@ using namespace std;
       if (amount > 0)
       {
         balance +=amount;
+        cout << "Deposit successful.\n";
         break;
       }
       else
@@ -54,6 +55,7 @@ void Client::withdraw (double amount)
       if (amount > 0 && amount <= balance)
       {
         balance -=amount;
+        cout << "Withdrawal successful.\n";
         break;
       }
       else
@@ -70,6 +72,7 @@ void Client::transferTo(double amount, Client& recipient)
       {
         balance -= amount;
         recipient.balance+= amount;
+        cout << "Transfer successful.\n";
         break;
       }
       else
@@ -85,7 +88,7 @@ void Client::checkBalance()
 }
 void Client::display()
 {
- Person::display();
+    Person::display();
     cout << "Balance : " << balance << endl;
 }
  vector<Client> Client::clientlist;

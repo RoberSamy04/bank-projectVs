@@ -5,8 +5,8 @@ using namespace std;
 class Person {
 
 protected:
-    string name, password;
-    int id;
+      string name,   password;
+      int id;
 
 public:
 
@@ -14,7 +14,7 @@ public:
     Person(int id, string name, string password);
 
     void setName(string name);
-    void setPassword(string password);
+    virtual  void setPassword(string password);
     void setId(int id);
 
     string getName();

@@ -31,7 +31,6 @@ void FilesHelper::saveLast(string lastIdFile, int id) {
         cout << "Error opening file" << endl;
 }
 
-
 int FilesHelper::getLast(string lastIdFile){
     fstream filetxt;
     int id;
@@ -100,15 +99,14 @@ void FilesHelper::saveAdmin(string fileName, string lastIdFile, Admin admin) {
 
 void FilesHelper::getClients() {
     string line;
+    Client::clientlist.clear();
     fstream ClientFile("ClientFile.txt");
     if (ClientFile.is_open()) {
         while (getline(ClientFile , line)) {
             Client client = Parser::parseToClient(line);
             Client::clientlist.push_back(client);
-
         }
         ClientFile.close();
-
     }
     else
         cout<<"there is an error in the getClients FileManager " << endl;
@@ -116,6 +114,7 @@ void FilesHelper::getClients() {
 
 void FilesHelper::getEmployees() {
     string line;
+    Employee::employeelist.clear();
     fstream EmployeeFile("EmployeeFile.txt");
     if (EmployeeFile.is_open()) {
         while (getline(EmployeeFile,line)) {
@@ -132,6 +131,7 @@ void FilesHelper::getEmployees() {
 
 void FilesHelper::getAdmins() {
     string line;
+    Admin::adminslist.clear();
     fstream AdminFile("AdminFile.txt");
     if (AdminFile.is_open()) {
         while (getline(AdminFile,line)) {

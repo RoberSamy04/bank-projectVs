@@ -2,12 +2,6 @@
 // // Created by rober on 9/6/2024.
 // //
 #include "FileManager.h"
-#include "Client.h"
-#include "Admin.h"
-#include "FilesHelper.h"
-#include "Employee.h"
-#include <vector>
-#include <string>
 using namespace  std;
 
 //AddClients to the txt file
@@ -56,4 +50,35 @@ void FileManager::removeAllEmployees() {
 //remove all Admins in the txt file
 void FileManager::removeAllAdmins() {
     FilesHelper::clearFile("AdminFile.txt" ,"aIdFile.txt");
+}
+
+//get All the data from filles store it in the vector
+void FileManager::getAllData(){
+    getAllClients();
+    getAllEmployees();
+    getAllAdmins();
+}
+
+//put all the vector<Client> data in the clientfile
+void FileManager::updateClients(){
+    removeAllClients();
+    for(Client::cit = Client::clientlist.begin(); Client::cit!=Client::clientlist.end();++Client::cit){
+        addClient(*Client::cit);
+    }
+}
+
+//put all the vector<Employee> data in the Employeefile
+void FileManager::updateEmployees(){
+    removeAllEmployees();
+    for(Employee::eit = Employee::employeelist.begin(); Employee::eit!= Employee::employeelist.end(); ++Employee::eit){
+        addEmployee(*Employee::eit);
+    }
+}
+
+//put all the vector<Admin> data in the Adminfile
+void FileManager::updateAdmins(){
+    removeAllAdmins();
+    for(Admin::ait = Admin::adminslist.begin(); Admin::ait != Admin::adminslist.end(); ++Admin::ait){
+        addAdmin(*Admin::ait);
+    }
 }

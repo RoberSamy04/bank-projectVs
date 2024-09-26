@@ -55,6 +55,7 @@ void Employee::editClient(int id, string name, string password, double balance) 
         client->setName(name);
         client->setPassword(password);
         client->setBalance(balance);
+        cout << "Client Info Updated \n" ;
     }
     else {
         cout <<"Client not Found " << endl;
@@ -72,7 +73,7 @@ void Employee::listClient() {
 void Employee::display()
 {
     Person::display();
-    cout << "Salary : " << salary << endl;
+    cout << "Salary : " << getSalary() << endl;
 }
  vector<Employee> Employee::employeelist;;
  vector<Employee> ::iterator Employee:: eit;

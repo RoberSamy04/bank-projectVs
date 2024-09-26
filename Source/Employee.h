@@ -17,7 +17,7 @@ void addClient(Client& client);
 Client* searchClient(int id);
  void listClient();
 void editClient(int id, string name, string password, double balance);
-void display();
+ void display();
  static  vector<Employee> employeelist;;
  static  vector<Employee> ::iterator eit;
 };

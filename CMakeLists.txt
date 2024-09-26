@@ -24,4 +24,12 @@ add_executable(bank_projectVs
         Source/Parser.h
         Source/Parser.cpp
         Source/FilesHelper.h
-        Source/FilesHelper.cpp)
+        Source/FilesHelper.cpp
+        Source/ClientManager.cpp
+        Source/ClientManager.h
+        Source/EmployeeManager.cpp
+        Source/EmployeeManager.h
+        Source/AdminManager.cpp
+        Source/AdminManager.h
+        Source/Screens.cpp
+        Source/Screens.h)

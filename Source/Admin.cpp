@@ -46,6 +46,7 @@ void Admin::listAdmin() {
 }
 void Admin::display() {
    Employee::display();
+
 }
  vector<Admin> Admin::adminslist;
-  vector<Admin>::iterator Admin:: ait;
+ vector<Admin>::iterator Admin:: ait;
