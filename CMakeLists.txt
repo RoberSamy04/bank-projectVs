@@ -1,35 +1,24 @@
-cmake_minimum_required(VERSION 3.29)
-project(bank_projectVs)
+cmake_minimum_required(VERSION 3.10)
 
-set(CMAKE_CXX_STANDARD 14)
+set(PROJECT_NAME "Bank project")
+project(${PROJECT_NAME}) # Project name
 
-include_directories(.)
+# Add the include directory to the project
+include_directories(include)
 
-add_executable(bank_projectVs
-    Source/Admin.cpp
-    Source/Admin.h
-    Source/Client.cpp
-    Source/Client.h
-    Source/Employee.cpp
-    Source/Employee.h
-    Source/main.cpp
-    Source/Person.cpp
-    Source/Person.h
-    Source/Validation.cpp
-    Source/Validation.h
-        Source/main.cpp
-        Source/DataSourceInterface.h
-        Source/FileManager.h
-        Source/FileManager.cpp
-        Source/Parser.h
-        Source/Parser.cpp
-        Source/FilesHelper.h
-        Source/FilesHelper.cpp
-        Source/ClientManager.cpp
-        Source/ClientManager.h
-        Source/EmployeeManager.cpp
-        Source/EmployeeManager.h
-        Source/AdminManager.cpp
-        Source/AdminManager.h
-        Source/Screens.cpp
-        Source/Screens.h)
+# Collect all header files in the include directory
+file(GLOB HEADER_FILES "include/*.h" "include/bank/*.h")
+
+# Collect all source files in the src directory
+file(GLOB SRC_FILES "src/bank/*.cpp")
+
+set(LIBRARY_NAME "Bank")
+
+# Create a library with all source files and header files
+add_library(${LIBRARY_NAME} ${SRC_FILES} ${HEADER_FILES})
+
+# Create executables for each main file
+add_executable(main "src/main.cpp")
+
+# Link the Bank library to the main executable
+target_link_libraries(main PRIVATE ${LIBRARY_NAME})
