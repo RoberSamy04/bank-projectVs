@@ -1,7 +1,7 @@
 //
 // Created by rober on 9/22/2024.
 //
-#include "AdminManager.h"
+#include "bank/AdminManager.h"
 
 
 void AdminManager::printAdminMenu() {
@@ -32,6 +32,7 @@ Admin *AdminManager::login(int id, string password) {
 
 bool AdminManager::AdminOptions(Admin *admin) {
     int choose;
+    FileManager f;
     do {
         printAdminMenu();
         while (!(cin >> choose)) {
@@ -48,11 +49,14 @@ bool AdminManager::AdminOptions(Admin *admin) {
             }
             break;
             case 2: {
+
                 system("CLS");
                 string newPassword;
                 cout << "Enter new password: ";
                 cin >> newPassword;
                 updatePassword(admin, newPassword);
+                f.updateAdmins();
+                f.getAllData();
                 cout << "Password updated successfully.\n";
                 system("PAUSE");
                 system("CLS");
@@ -74,9 +78,9 @@ bool AdminManager::AdminOptions(Admin *admin) {
                 editClientInfo(admin);
             break;
             case 7: {
+                system("CLS");
                 string name , password; double salary;
                 Employee employee;
-                FileManager f;
                 cout << "Please Enter The Employee's Name :\n";
                 cin >> name;
                 employee.setName(name);
@@ -88,11 +92,15 @@ bool AdminManager::AdminOptions(Admin *admin) {
                 employee.setSalary(salary);
                 admin->addEmployee(employee);
                 f.updateEmployees();
+                f.getAllData();
                 cout << "Employee Added Successfully :\n";
+                system("PAUSE");
+                system("CLS");
             }
             break;
             case 8: {
                 int id;
+                system("CLS");
                 cout <<"Please Enter The Employee's Id : \n";
                 cin >>id;
                 Employee * e = admin->searchEmployee(id);
@@ -101,26 +109,41 @@ bool AdminManager::AdminOptions(Admin *admin) {
                 }
                 else
                     cout <<"Employee Not Found \n";
+                system("PAUSE");
+                system("CLS");
             }
             break;
-            case 9:
+            case 9: {
+                system("CLS");
                 admin->listEmployee();
+                system("PAUSE");
+                system("CLS");
+            }
+
             break;
             case 10: {
+                system("CLS");
                 int id;
                 string name , password;
-                double balance;
-                FileManager f;
+                double salary;
+                Employee e;
                 cout <<"Please Enter The Employee's Id : \n";
                 cin >>id;
+                e.setId(id);
                 cout <<"Please Enter The Name : \n";
                 cin >> name;
+                e.setName(name);
                 cout <<"Please Enter The Password : \n";
                 cin >> password;
-                cout <<"Please Enter The Balance : \n";
-                cin >> balance;
-                admin->editEmployee(id, name , password , balance);
+                e.setPassword(password);
+                cout <<"Please Enter The Salary : \n";
+                cin >>salary ;
+                e.setSalary(salary);
+                admin->editEmployee(e.getId(), e.getName() , e.getPassword() , e.getSalary());
                 f.updateEmployees();
+                f.getAllData();
+                system("PAUSE");
+                system("CLS");
             }
             break;
             case 11: {

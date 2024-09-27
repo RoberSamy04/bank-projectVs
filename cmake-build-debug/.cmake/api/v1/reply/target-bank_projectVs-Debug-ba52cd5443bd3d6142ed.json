@@ -28,13 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 6,
+				"line" : 10,
 				"parent" : 0
 			}
 		]
@@ -45,14 +45,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++14 -fdiagnostics-color=always"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "F:/bank projectVs/."
+					"path" : "F:/bank projectVs/include"
 				}
 			],
 			"language" : "CXX",
@@ -62,19 +62,19 @@
 				[
 					1
 				],
-				"standard" : "14"
+				"standard" : "17"
 			},
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4,
-				6,
+				1,
+				3,
+				5,
 				7,
 				9,
-				13,
-				15,
-				17,
+				12,
+				14,
+				16,
 				18,
 				20,
 				22,
@@ -116,14 +116,14 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4,
-				6,
+				1,
+				3,
+				5,
 				7,
 				9,
-				13,
-				15,
-				17,
+				12,
+				14,
+				16,
 				18,
 				20,
 				22,
@@ -134,57 +134,25 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				3,
-				5,
+				2,
+				4,
+				6,
 				8,
 				10,
 				11,
-				12,
-				14,
-				16,
+				13,
+				15,
+				17,
 				19,
 				21,
 				23,
-				25
+				25,
+				26
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Source/Admin.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Source/Admin.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Source/Client.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Source/Client.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Source/Employee.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Source/Employee.h",
-			"sourceGroupIndex" : 1
-		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
@@ -194,105 +162,143 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/Person.cpp",
+			"path" : "Source/bank/Admin.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/Person.h",
+			"path" : "include/bank/Admin.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/Validation.cpp",
+			"path" : "Source/bank/Client.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/Validation.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Source/DataSourceInterface.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "Source/FileManager.h",
+			"path" : "include/bank/Client.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/FileManager.cpp",
+			"path" : "Source/bank/Employee.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/Parser.h",
+			"path" : "include/bank/Employee.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/Parser.cpp",
+			"path" : "Source/bank/Person.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/FilesHelper.h",
+			"path" : "include/bank/Person.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/FilesHelper.cpp",
+			"path" : "Source/bank/Validation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "Source/ClientManager.cpp",
-			"sourceGroupIndex" : 0
+			"path" : "include/bank/Validation.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/ClientManager.h",
+			"path" : "include/bank/DataSourceInterface.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/EmployeeManager.cpp",
+			"path" : "Source/bank/FileManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/EmployeeManager.h",
+			"path" : "include/bank/FileManager.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/AdminManager.cpp",
+			"path" : "Source/bank/Parser.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/AdminManager.h",
+			"path" : "include/bank/Parser.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Source/Screens.cpp",
+			"path" : "Source/bank/FilesHelper.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "Source/Screens.h",
+			"path" : "include/bank/FilesHelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/bank/ClientManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bank/ClientManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/bank/EmployeeManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bank/EmployeeManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/bank/AdminManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bank/AdminManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Source/bank/Screens.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bank/Screens.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/bank.h",
 			"sourceGroupIndex" : 1
 		}
 	],

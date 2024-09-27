@@ -49,96 +49,96 @@ cmake_ninja_workdir = F$:/bank$ projectVs/cmake-build-debug/
 
 build cmake_object_order_depends_target_bank_projectVs: phony || .
 
-build CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Admin.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Admin.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
-  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
-
-build CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Client.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Client.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
-  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
-
-build CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Employee.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Employee.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
-  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
-
 build CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/main.cpp || cmake_object_order_depends_target_bank_projectVs
   DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
   OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
 
-build CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Person.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Person.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Admin.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Admin.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Admin.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Validation.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Validation.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Client.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Client.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Client.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/FileManager.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\FileManager.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Employee.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Employee.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Employee.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Parser.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Parser.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Person.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Person.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Person.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/FilesHelper.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\FilesHelper.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Validation.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Validation.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Validation.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/ClientManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/ClientManager.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\ClientManager.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/FileManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/FileManager.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\FileManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/EmployeeManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/EmployeeManager.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\EmployeeManager.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/Parser.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Parser.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Parser.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/AdminManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/AdminManager.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\AdminManager.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/FilesHelper.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/FilesHelper.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\FilesHelper.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
-build CMakeFiles/bank_projectVs.dir/Source/Screens.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/Screens.cpp || cmake_object_order_depends_target_bank_projectVs
-  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\Screens.cpp.obj.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -I"F:/bank projectVs/."
+build CMakeFiles/bank_projectVs.dir/Source/bank/ClientManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/ClientManager.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\ClientManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir
-  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
+
+build CMakeFiles/bank_projectVs.dir/Source/bank/EmployeeManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/EmployeeManager.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\EmployeeManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
+  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
+
+build CMakeFiles/bank_projectVs.dir/Source/bank/AdminManager.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/AdminManager.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\AdminManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
+  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
+
+build CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj: CXX_COMPILER__bank_projectVs_unscanned_Debug F$:/bank$ projectVs/Source/bank/Screens.cpp || cmake_object_order_depends_target_bank_projectVs
+  DEP_FILE = CMakeFiles\bank_projectVs.dir\Source\bank\Screens.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"F:/bank projectVs/include"
+  OBJECT_DIR = CMakeFiles\bank_projectVs.dir
+  OBJECT_FILE_DIR = CMakeFiles\bank_projectVs.dir\Source\bank
 
 
 # =============================================================================
@@ -148,7 +148,7 @@ build CMakeFiles/bank_projectVs.dir/Source/Screens.cpp.obj: CXX_COMPILER__bank_p
 #############################################
 # Link the executable bank_projectVs.exe
 
-build bank_projectVs.exe: CXX_EXECUTABLE_LINKER__bank_projectVs_Debug CMakeFiles/bank_projectVs.dir/Source/Admin.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Client.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Employee.cpp.obj CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Person.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Validation.cpp.obj CMakeFiles/bank_projectVs.dir/Source/FileManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Parser.cpp.obj CMakeFiles/bank_projectVs.dir/Source/FilesHelper.cpp.obj CMakeFiles/bank_projectVs.dir/Source/ClientManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/EmployeeManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/AdminManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/Screens.cpp.obj
+build bank_projectVs.exe: CXX_EXECUTABLE_LINKER__bank_projectVs_Debug CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Admin.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Client.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Employee.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Person.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Validation.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/FileManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Parser.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/FilesHelper.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/ClientManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/EmployeeManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/AdminManager.cpp.obj CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\bank_projectVs.dir

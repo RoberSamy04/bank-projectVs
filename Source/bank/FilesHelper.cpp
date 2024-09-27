@@ -1,14 +1,14 @@
 //
 // Created by rober on 9/14/2024.
 //
-#include "FilesHelper.h"
+#include "bank/FilesHelper.h"
 #include<fstream>
 #include<iostream>
 #include <string>
-#include"Admin.h"
-#include "Parser.h"
-#include "Client.h"
-#include "Employee.h"
+#include "bank/Admin.h"
+#include "bank/Parser.h"
+#include "bank/Client.h"
+#include "bank/Employee.h"
 void FilesHelper::saveLast(string lastIdFile, int id) {
     fstream filetxt;
     if (lastIdFile == "cIdFile.txt")

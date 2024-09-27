@@ -1,8 +1,8 @@
 #include <iostream>
 #include<string>
 
-#include "Client.h"
-#include "Validation.h"
+#include "bank/Client.h"
+#include "bank/Validation.h"
 using namespace std;
 //Cons
 

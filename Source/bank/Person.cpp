@@ -1,5 +1,5 @@
-#include "Person.h"
-#include "Validation.h"
+#include "bank/Person.h"
+#include "bank/Validation.h"
 #include <iostream>
 #include <cctype>
 using namespace std;

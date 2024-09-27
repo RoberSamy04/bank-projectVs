@@ -1,6 +1,7 @@
 #include <iostream>
 #include<string>
-#include "Admin.h"
+#include "bank/Admin.h"
+#include <vector>
 using namespace std;
 //Cons
 Admin::Admin() : Employee() {}
@@ -27,6 +28,7 @@ void Admin::editEmployee(int id, string name, string password, double salary) {
         employee->setName(name);
         employee->setPassword(password);
         employee->setSalary(salary);
+        cout << "Employee Info Updated \n" ;
     }
     else
         cout <<"Employee not Found " << endl;

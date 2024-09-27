@@ -1,7 +1,7 @@
 //
 // Created by rober on 9/22/2024.
 //
-#include "EmployeeManager.h"
+#include "bank/EmployeeManager.h"
 void EmployeeManager::printEmployeeMenu() {
     cout << " (1) Display My Info \n";
     cout << " (2) Update Password \n";
@@ -19,6 +19,7 @@ void EmployeeManager::updatePassword(Person *person  , const string &line) {
 }
 
 void EmployeeManager::newClient(Employee *employee) {
+    system("CLS");
     string password , name;
     double balance;
     Client client;
@@ -36,10 +37,15 @@ void EmployeeManager::newClient(Employee *employee) {
     f.updateClients();
     f.getAllData();
     cout << "Client Added Successfully :\n";
+    system("PAUSE");
+    system("CLS");
 }
 
 void EmployeeManager::listAllClients(Employee *employee) {
+    system("CLS");
     employee->listClient();
+    system("PAUSE");
+    system("CLS");
 }
 
 void EmployeeManager::editClientInfo(Employee *employee) {
@@ -47,20 +53,29 @@ void EmployeeManager::editClientInfo(Employee *employee) {
     string name , password;
     double balance;
     FileManager f;
+    Client c;
+    system("CLS");
     cout <<"Please Enter The Client's Id : \n";
     cin >>id;
+    c.setId(id);
     cout <<"Please Enter The Name : \n";
     cin >> name;
+    c.setName(name);
     cout <<"Please Enter The Password : \n";
     cin >> password;
+    c.setPassword(password);
     cout <<"Please Enter The Balance : \n";
     cin >> balance;
-    employee->editClient(id, name , password , balance);
+    c.setBalance(balance);
+    employee->editClient(c.getId(), c.getName() , c.getPassword() , c.getBalance());
     f.updateClients();
     f.getAllData();
+    system("PAUSE");
+    system("CLS");
 }
 
 void EmployeeManager::searchForClient(Employee *employee) {
+    system("CLS");
     int id;
     cout <<"Please Enter The Client's Id : \n";
     cin >> id;
@@ -70,6 +85,8 @@ void EmployeeManager::searchForClient(Employee *employee) {
     }
     else
        cout <<"Client not Found " << endl;
+    system("PAUSE");
+    system("CLS");
 }
 
 Employee *EmployeeManager::login(int id, string password) {
@@ -82,20 +99,30 @@ Employee *EmployeeManager::login(int id, string password) {
 }
 
 bool EmployeeManager::employeeOptions(Employee *employee) {
+    FileManager f;
     int choose;
     do{
     printEmployeeMenu();
     cin >> choose;
     switch (choose) {
-        case 1:
+        case 1: {
+            system("CLS");
             employee->display();
+            system("PAUSE");
+            system("CLS");
+        }
         break;
         case 2: {
+            system("CLS");
             string newPassword;
             cout << "Enter new password: ";
             cin >> newPassword;
             updatePassword(employee, newPassword);
             cout << "Password updated successfully.\n";
+            f.updateEmployees();
+            f.getAllData();
+            system("PAUSE");
+            system("CLS");
             break;
         }
         case 3:

@@ -1,7 +1,7 @@
 //
 // Created by rober on 9/23/2024.
 //
-#include "Screens.h"
+#include "bank/Screens.h"
 
 
 
@@ -77,70 +77,64 @@ int Screens::loginAs() {
 }
 
 void Screens::valid(int c) {
-    int id; string password;
+    int id;
+    string password;
     while (true) {
         cout << "Please Enter Your Id: "<<flush;
         cin >> id;
         cout << "Please Enter Your Password: "<<flush;
         cin >> password;
+
         if (c == 1) {
             Client* client = ClientManager::login(id, password);
             if (client) {
-                loginScreen(c);
+                loginScreen(client);  // Pass the client object
                 break;
-            }
-            else {
-                system("CLS");
-                cout << "Invalid ID or PASSWORD\n\n"<<flush;
             }
         }
         else if(c == 2){
             Employee* employee = EmployeeManager::login(id, password);
             if (employee) {
-                loginScreen(c);
+                loginScreen(employee);  // Pass the employee object
                 break;
             }
-            else {
-                system("CLS");
-                cout << "Invalid ID or PASSWORD\n\n"<<flush;
-            }
         }
-        else if(c==3){
+        else if(c == 3){
             Admin* admin = AdminManager::login(id, password);
             if (admin) {
-                loginScreen(c);
+                loginScreen(admin);  // Pass the admin object
                 break;
             }
-            else {
-                system("CLS");
-                cout << "Invalid ID or PASSWORD\n\n"<<flush;
-            }
         }
+
+        system("CLS");
+        cout << "Invalid ID or PASSWORD\n\n" << flush;
     }
 }
 
-void Screens::loginScreen(int c) {
+void Screens::loginScreen(Client* client) {
     system("CLS");
-    if (c == 1) {
-        Client client;
-        bool isLoggedOut = ClientManager::clientOptions(&client);
-        if (isLoggedOut) {
-            logout();
-        }
+    bool isLoggedOut = ClientManager::clientOptions(client);
+    if (isLoggedOut) {
+        logout();
     }
-    else if (c == 2) {
-        Employee employee;
-        bool isLoggedOut = EmployeeManager::employeeOptions(&employee);
-        if (isLoggedOut) {
-            logout();
-        }
+    system("CLS");
+}
+
+void Screens::loginScreen(Employee* employee) {
+    system("CLS");
+    bool isLoggedOut = EmployeeManager::employeeOptions(employee);
+    if (isLoggedOut) {
+        logout();
     }
-    else if(c == 3) {
-        Admin  admin;
-        bool isLoggedOut = AdminManager::AdminOptions(&admin);
-        if (isLoggedOut) {
-            logout();
-        }
+    system("CLS");
+}
+
+void Screens::loginScreen(Admin* admin) {
+    system("CLS");
+    bool isLoggedOut = AdminManager::AdminOptions(admin);
+    if (isLoggedOut) {
+        logout();
     }
     system("CLS");
 }

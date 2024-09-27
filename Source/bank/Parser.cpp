@@ -1,13 +1,13 @@
 //
 // Created by rober on 9/7/2024.
 //
-#include "Parser.h"
+#include "bank/Parser.h"
 #include <string>
 #include<sstream>
 #include <iostream>
-#include"Client.h"
-#include"Employee.h"
-#include"Admin.h"
+#include "bank/Client.h"
+#include "bank/Employee.h"
+#include "bank/Admin.h"
 vector<string> Parser::split(string line) {
     vector<string> result; // creat an empty vector to store the data members
     stringstream s(line); //creat a string_stream  to handle the input string
