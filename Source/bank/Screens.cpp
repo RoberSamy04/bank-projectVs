@@ -20,7 +20,7 @@ void Screens::welcome() {
     }
     cout <<endl;
     cout << endl;
-    chrono::seconds s(1);
+    chrono::seconds s(3);
     this_thread::sleep_for(s);
 
 }
@@ -39,7 +39,7 @@ void Screens::bankName() {
     for (const string& line : Name) {
         cout << line<< flush;
     }
-    chrono::seconds s(2);
+    chrono::seconds s(5);
     this_thread::sleep_for(s);
     system("cls");
 
@@ -70,13 +70,12 @@ int Screens::loginAs() {
         else {
             cout << "Invalid input. Please choose 1, 2, or 3.\n";
         }
-
         cin.clear();
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
     }
 }
 
-void Screens::valid(int c) {
+void Screens::valid(int options) {
     int id;
     string password;
     while (true) {
@@ -85,24 +84,24 @@ void Screens::valid(int c) {
         cout << "Please Enter Your Password: "<<flush;
         cin >> password;
 
-        if (c == 1) {
+        if (options == 1) {
             Client* client = ClientManager::login(id, password);
             if (client) {
-                loginScreen(client);  // Pass the client object
+                operationscreen(client);
                 break;
             }
         }
-        else if(c == 2){
+        else if(options == 2){
             Employee* employee = EmployeeManager::login(id, password);
             if (employee) {
-                loginScreen(employee);  // Pass the employee object
+                operationscreen(employee);
                 break;
             }
         }
-        else if(c == 3){
+        else if(options == 3){
             Admin* admin = AdminManager::login(id, password);
             if (admin) {
-                loginScreen(admin);  // Pass the admin object
+                operationscreen(admin);
                 break;
             }
         }
@@ -112,7 +111,7 @@ void Screens::valid(int c) {
     }
 }
 
-void Screens::loginScreen(Client* client) {
+void Screens::operationscreen(Client* client) {
     system("CLS");
     bool isLoggedOut = ClientManager::clientOptions(client);
     if (isLoggedOut) {
@@ -121,7 +120,7 @@ void Screens::loginScreen(Client* client) {
     system("CLS");
 }
 
-void Screens::loginScreen(Employee* employee) {
+void Screens::operationscreen(Employee* employee) {
     system("CLS");
     bool isLoggedOut = EmployeeManager::employeeOptions(employee);
     if (isLoggedOut) {
@@ -130,7 +129,7 @@ void Screens::loginScreen(Employee* employee) {
     system("CLS");
 }
 
-void Screens::loginScreen(Admin* admin) {
+void Screens::operationscreen(Admin* admin) {
     system("CLS");
     bool isLoggedOut = AdminManager::AdminOptions(admin);
     if (isLoggedOut) {

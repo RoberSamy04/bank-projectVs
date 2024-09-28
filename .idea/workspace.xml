@@ -24,49 +24,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a88052-3fa0-4fd7-a730-72013b092b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/include/bank.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Admin.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Admin.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AdminManager.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AdminManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Client.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Client.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ClientManager.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ClientManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/DataSourceInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Employee.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Employee.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/EmployeeManager.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/EmployeeManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FileManager.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FileManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FilesHelper.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/FilesHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Parser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Parser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Person.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Screens.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Screens.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Validation.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Validation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/bank/ClientManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/bank/ClientManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/bank/EmployeeManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/bank/EmployeeManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/bank/Screens.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/bank/Screens.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/bank/Validation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/bank/Validation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/AdminFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AdminFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/AdminManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/AdminManager.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/ClientManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/ClientManager.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/EmployeeManager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/EmployeeManager.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Screens.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/Screens.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ClientFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ClientFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/EmployeeFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/EmployeeFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bank_projectVs.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bank_projectVs.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cIdFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cIdFile.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/eIdFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/eIdFile.txt" afterDir="false" />
     </list>
@@ -897,7 +871,8 @@
       <workItem from="1727354956212" duration="17866000" />
       <workItem from="1727376713883" duration="3804000" />
       <workItem from="1727438760753" duration="5080000" />
-      <workItem from="1727443935203" duration="585000" />
+      <workItem from="1727443935203" duration="5967000" />
+      <workItem from="1727538695378" duration="2578000" />
     </task>
     <servers />
   </component>
@@ -908,17 +883,6 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Source/bank/ClientManager.cpp</url>
-          <line>2</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

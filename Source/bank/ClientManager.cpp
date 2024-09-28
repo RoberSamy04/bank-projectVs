@@ -8,6 +8,7 @@
 #include "bank/Employee.h"
 #include <string>
 #include <iostream>
+
 void ClientManager::printClientMenu() {
     cout << " (1) Display My Info \n";
     cout << " (2) Check Balance \n";
@@ -34,7 +35,7 @@ Client *ClientManager::login(int id, string password) {
     return  nullptr;
 }
 
-//implement the ClientMenu
+
 bool ClientManager::clientOptions(Client *client) {
     FileManager f;
     int choose;

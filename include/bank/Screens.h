@@ -23,9 +23,9 @@ public:
     static int loginAs();
     static void valid(int c);
     static void logout();
-    static  void loginScreen(Employee* employee);
-    static  void loginScreen(Admin* admin);
-    static  void loginScreen(Client* client);
+    static  void operationscreen(Employee* employee);
+    static  void operationscreen(Admin* admin);
+    static  void operationscreen(Client* client);
     static void runApp();
 };
 #endif //SCREENS_H

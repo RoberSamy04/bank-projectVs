@@ -11,7 +11,7 @@ include_directories(include)
 
 # Add the executable
 add_executable(bank_projectVs
-        Source/main.cpp                  # Main.cpp is directly under Source
+        Source/main.cpp
         Source/bank/Admin.cpp
         include/bank/Admin.h
         Source/bank/Client.cpp

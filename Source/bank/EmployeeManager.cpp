@@ -2,6 +2,7 @@
 // Created by rober on 9/22/2024.
 //
 #include "bank/EmployeeManager.h"
+
 void EmployeeManager::printEmployeeMenu() {
     cout << " (1) Display My Info \n";
     cout << " (2) Update Password \n";
