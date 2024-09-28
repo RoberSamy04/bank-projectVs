@@ -20,7 +20,7 @@ void Screens::welcome() {
     }
     cout <<endl;
     cout << endl;
-    chrono::seconds s(1);
+    chrono::seconds s(3);
     this_thread::sleep_for(s);
 
 }
@@ -39,7 +39,7 @@ void Screens::bankName() {
     for (const string& line : Name) {
         cout << line<< flush;
     }
-    chrono::seconds s(1);
+    chrono::seconds s(5);
     this_thread::sleep_for(s);
     system("cls");
 
