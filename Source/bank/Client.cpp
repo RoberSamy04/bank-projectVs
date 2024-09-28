@@ -1,15 +1,16 @@
 #include <iostream>
 #include<string>
-#include <cctype>
-#include "Client.h"
-#include "Validation.h"
+
+#include "bank/Client.h"
+#include "bank/Validation.h"
 using namespace std;
 //Cons
+
   Client::Client() : Person()
   {
     balance = 0;
   }
-  Client::Client(string name , string password , int id , double balance) : Person(name , password , id) , balance(balance)
+  Client::Client(int id , string name , string password , double balance) : Person(id , name , password) , balance(balance)
   {
   }
   //Setters
@@ -38,6 +39,7 @@ using namespace std;
       if (amount > 0)
       {
         balance +=amount;
+        cout << "Deposit successful.\n";
         break;
       }
       else
@@ -53,6 +55,7 @@ void Client::withdraw (double amount)
       if (amount > 0 && amount <= balance)
       {
         balance -=amount;
+        cout << "Withdrawal successful.\n";
         break;
       }
       else
@@ -69,6 +72,7 @@ void Client::transferTo(double amount, Client& recipient)
       {
         balance -= amount;
         recipient.balance+= amount;
+        cout << "Transfer successful.\n";
         break;
       }
       else
@@ -87,3 +91,5 @@ void Client::display()
     Person::display();
     cout << "Balance : " << balance << endl;
 }
+ vector<Client> Client::clientlist;
+ vector<Client>::iterator Client::cit;

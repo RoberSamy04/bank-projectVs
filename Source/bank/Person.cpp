@@ -1,5 +1,5 @@
-#include "Person.h"
-#include "Validation.h"
+#include "bank/Person.h"
+#include "bank/Validation.h"
 #include <iostream>
 #include <cctype>
 using namespace std;
@@ -8,7 +8,7 @@ Person::Person()
 {
     id = 0; 
 }
-Person::Person(string name, string password, int id) : name(name), password(password), id(id) 
+Person::Person(int id, string name, string password) : name(name), password(password), id(id)
 {
 }
 
@@ -59,8 +59,8 @@ int Person::getId() {
     return id;
 }
  void Person::display() {
-    cout << "Name : " << name << endl;
-    cout << "id : " << id << endl;
-    cout << "password : " << password << endl;
+    cout << "Name : " << getName() << endl;
+    cout << "id : " << getId() << endl;
+    cout << "password : " << getPassword() << endl;
  }
 

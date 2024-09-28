@@ -1,2 +1,26 @@
 # ninja log v6
 1092	1536	7463073705147696	bank_projectVs.exe	fe989bc5df3b057a
+7	1593	7492463946852546	CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj	b27402f88b6b2bf9
+17	1610	7492463946944274	CMakeFiles/bank_projectVs.dir/Source/bank/Client.cpp.obj	52f63b316ccf14f3
+12	1738	7492463946903455	CMakeFiles/bank_projectVs.dir/Source/bank/Admin.cpp.obj	d4675e3be7f09ec6
+1610	2659	7492463962875767	CMakeFiles/bank_projectVs.dir/Source/bank/Person.cpp.obj	4557635d4f597a80
+1739	2742	7492463964164305	CMakeFiles/bank_projectVs.dir/Source/bank/Validation.cpp.obj	3471f09a992f63ea
+1600	2917	7492463962774991	CMakeFiles/bank_projectVs.dir/Source/bank/Employee.cpp.obj	a09c44f3d80a904a
+2659	3727	7492463973363940	CMakeFiles/bank_projectVs.dir/Source/bank/FileManager.cpp.obj	45461cf5be401ea4
+2743	4140	7492463974201794	CMakeFiles/bank_projectVs.dir/Source/bank/Parser.cpp.obj	d40f01ffa4ece865
+2917	4621	7492463975943596	CMakeFiles/bank_projectVs.dir/Source/bank/FilesHelper.cpp.obj	7774c9be74c697b4
+3729	4954	7492463984063442	CMakeFiles/bank_projectVs.dir/Source/bank/ClientManager.cpp.obj	b526139aed4b23e0
+4140	5345	7492463988174012	CMakeFiles/bank_projectVs.dir/Source/bank/EmployeeManager.cpp.obj	5e3207477f6e1bb1
+4622	5971	7492463992996899	CMakeFiles/bank_projectVs.dir/Source/bank/AdminManager.cpp.obj	4118099b202d666f
+4954	6418	7492463996320411	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+6418	6863	7492464010952231	bank_projectVs.exe	3594a0531b282324
+14	1628	7492470856149195	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+1628	2067	7492470872296301	bank_projectVs.exe	3594a0531b282324
+15	1564	7492471995993847	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+1564	1953	7492472011486575	bank_projectVs.exe	3594a0531b282324
+14	1175	7492474301396479	CMakeFiles/bank_projectVs.dir/Source/bank/FileManager.cpp.obj	45461cf5be401ea4
+1176	1658	7492474313009059	bank_projectVs.exe	3594a0531b282324
+14	1187	7492475012422182	CMakeFiles/bank_projectVs.dir/Source/bank/FileManager.cpp.obj	45461cf5be401ea4
+1188	1659	7492475024161520	bank_projectVs.exe	3594a0531b282324
+16	1798	7492475674703654	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+1799	2175	7492475692535013	bank_projectVs.exe	3594a0531b282324

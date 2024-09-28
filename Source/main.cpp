@@ -1,16 +1,10 @@
-#include <iostream>
-#include"Validation.h"
-#include "Client.h"
-#include"Employee.h"
-#include"Admin.h"
-#include<string>
+
+#include "bank.h"
 using namespace std;
-int main()
-{
- Admin admin;
- Employee employee;
- Client client;
- Client client2;
-admin.display();
+
+int main(){
+
+    Screens::runApp();
+
 return 0;
 }
