@@ -139,7 +139,6 @@ bool EmployeeManager::employeeOptions(Employee *employee) {
             editClientInfo(employee);
         break;
         case 7:
-            cout << "Logging out...\n";
         return true;
         default:
             cout << "Invalid choice, please try again.\n";

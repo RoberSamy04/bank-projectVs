@@ -9,7 +9,7 @@
 #include <string>
 #include "Screens.h"
 #include <iostream>
-class AdminManager  : public EmployeeManager {
+class AdminManager   {
 public:
     static void printAdminMenu();
     static Admin* login(int id, string password);

@@ -26,3 +26,10 @@
 1799	2175	7492475692535013	bank_projectVs.exe	3594a0531b282324
 17	1576	7492492147572097	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
 1576	1954	7492492163174436	bank_projectVs.exe	3594a0531b282324
+17	7510	7495031994772155	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+7511	8667	7495032069721744	bank_projectVs.exe	3594a0531b282324
+17	3613	7495835073978682	CMakeFiles/bank_projectVs.dir/Source/main.cpp.obj	b27402f88b6b2bf9
+68	3686	7495835074488681	CMakeFiles/bank_projectVs.dir/Source/bank/AdminManager.cpp.obj	4118099b202d666f
+65	3693	7495835074458692	CMakeFiles/bank_projectVs.dir/Source/bank/EmployeeManager.cpp.obj	5e3207477f6e1bb1
+3614	5668	7495835109948848	CMakeFiles/bank_projectVs.dir/Source/bank/Screens.cpp.obj	75cfcbb3e3c4f09d
+5668	6694	7495835130488852	bank_projectVs.exe	3594a0531b282324

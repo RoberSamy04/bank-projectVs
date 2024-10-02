@@ -54,7 +54,7 @@ bool AdminManager::AdminOptions(Admin *admin) {
                 string newPassword;
                 cout << "Enter new password: ";
                 cin >> newPassword;
-                updatePassword(admin, newPassword);
+                 EmployeeManager::updatePassword(admin, newPassword);
                 f.updateAdmins();
                 f.getAllData();
                 cout << "Password updated successfully.\n";
@@ -63,19 +63,19 @@ bool AdminManager::AdminOptions(Admin *admin) {
             }
             break;
             case 3: {
-                newClient(admin);
+                EmployeeManager::newClient(admin);
             }
             break;
             case 4: {
-                searchForClient(admin);
+                EmployeeManager::searchForClient(admin);
             }
             break;
             case 5: {
-                listAllClients(admin);
+                 EmployeeManager::listAllClients(admin);
             }
             break;
             case 6:
-                editClientInfo(admin);
+                 EmployeeManager::editClientInfo(admin);
             break;
             case 7: {
                 system("CLS");
